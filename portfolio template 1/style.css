@@ -17,6 +17,15 @@ body {
     z-index: 0;
 }
 
+.rounded-full {
+  border-radius: 50%;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
     background-image: url('./assets/bg2.jpg');
     background-position: center center;
@@ -28,6 +37,14 @@ body {
     z-index: 20;
 }
 
+.md\:mt-48 {
+  margin-top: 80px;
+}
+
+.mt-16 {
+  margin-top: 65px;
+  margin-right: 80px;
+}
 
 .container1 {
     flex: 0 1 700px;
